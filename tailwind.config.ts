@@ -28,9 +28,9 @@ const config = {
 				},
 			},
 			fontFamily: {
-				inter: "var('--font-inter')",
-				open_sans: "var('--font-open_sans')",
-				poppins: "var('--font-poppins')",
+				inter: ["var(--font-inter)"],
+				open_sans: ["var(--font-open-sans)"],
+				poppins: ["var(--font-poppins)"],
 			},
 			keyframes: {
 				"accordion-down": {
