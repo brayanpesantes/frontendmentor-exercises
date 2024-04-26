@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import "./globals.css"
-import { inter, open_sans, poppins } from "@/lib/fonts"
+import { inter, libre_franklin, open_sans, poppins } from "@/lib/fonts"
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -14,7 +14,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${inter.variable} ${poppins.variable} ${open_sans.variable}`}>
+			<body
+				className={`${inter.variable} ${poppins.variable} ${open_sans.variable} ${libre_franklin.variable}`}
+			>
 				{children}
 			</body>
 		</html>
