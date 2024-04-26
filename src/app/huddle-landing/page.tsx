@@ -6,35 +6,30 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa"
 
 export default function HunddleLandingPage() {
 	return (
-		<div className=" bg-exercise-01-mobile lg:bg-exercise-01-desktop bg-exercise-01-violet font-open_sans mx-auto min-h-screen max-w-screen-2xl bg-[length:100%_55%] bg-no-repeat  pb-[78px] lg:bg-[length:100%_100%] lg:bg-left">
-			<div className="px-6 sm:px-[80px] lg:px-[78px]">
-				<header className="py-16">
-					<img src={ImageLogo.src} alt="logo hunddle" />
+		<div className="mx-auto min-h-screen max-w-screen-2xl bg-exercise-01-violet bg-exercise-01-mobile bg-contain bg-no-repeat pb-[78px] lg:bg-exercise-01-desktop lg:bg-auto lg:bg-left-top">
+			<div className="px-6 sm:px-20">
+				<header className="py-[74px] lg:py-16">
+					<img src={ImageLogo.src} alt="logo hunddle" className="h-10 lg:h-9" />
 				</header>
-				<div className="mt-10 grid gap-x-14 gap-y-36 lg:grid-cols-2">
-					<section className="">
-						<img
-							src={ImageHero.src}
-							alt="hero"
-							className="h-full w-full"
-							height={ImageHero.height}
-						/>
+				<div className="mt-16 flex w-full flex-col gap-x-14 gap-y-[140px] lg:mt-9 lg:flex-row">
+					<section className="basis-7/12">
+						<img src={ImageHero.src} alt="hero" className="h-full w-full " />
 					</section>
-					<section className="flex flex-col items-center lg:items-start">
-						<h1 className="font-poppins mt-5 text-center text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-start">
-							Build The Community <br /> Your Fans Will Love
+					<section className="flex basis-5/12 flex-col items-center lg:items-start">
+						<h1 className="mt-5 text-center font-poppins text-2xl font-semibold text-white sm:text-3xl md:text-[46px] md:leading-tight lg:text-start">
+							Build The Community Your Fans Will Love
 						</h1>
-						<p className=" mt-11 text-center text-xl text-white lg:text-start">
+						<p className=" mt-11 text-center font-open_sans text-base text-white sm:text-3xl lg:text-start lg:text-xl">
 							Huddle re-imagines the way we build communities. You have a voice, but so does your
 							audience. Create connections with your users as you engage in genuine discussion.
 						</p>
-						<Button className="text-exercise-01-violet hover:bg-exercise-01-soft-magenta mt-7 rounded-full bg-white px-16 shadow-lg hover:text-white">
+						<Button className="mt-7 rounded-full bg-white px-16 text-exercise-01-violet shadow-lg hover:bg-exercise-01-soft-magenta hover:text-white">
 							Register
 						</Button>
 					</section>
 				</div>
-				<header className="mt-7">
-					<div className="hover:*:text-exercise-01-soft-magenta hover:*:border-exercise-01-soft-magenta flex justify-center gap-4 *:flex *:size-10 *:cursor-pointer *:items-center *:justify-center *:rounded-full *:border *:border-white *:text-white *:transition-all *:duration-300 *:ease-in-out lg:justify-end">
+				<footer className="mt-7">
+					<div className="flex justify-center gap-4 *:flex *:size-10 *:cursor-pointer *:items-center *:justify-center *:rounded-full *:border *:border-white *:text-white *:transition-all *:duration-300 *:ease-in-out hover:*:border-exercise-01-soft-magenta hover:*:text-exercise-01-soft-magenta lg:justify-end">
 						<span>
 							<FaFacebookF />
 						</span>
@@ -45,7 +40,7 @@ export default function HunddleLandingPage() {
 							<FaInstagram />
 						</span>
 					</div>
-				</header>
+				</footer>
 			</div>
 		</div>
 	)
