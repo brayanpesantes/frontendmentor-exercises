@@ -26,11 +26,19 @@ const config = {
 					"violet": "hsl(257, 40%, 49%)",
 					"soft-magenta": "hsl(300, 69%, 71%)",
 				},
+				"exercise-02": {
+					"blue": "hsl(223, 87%, 63%)",
+					"pale-blue": "hsl(223, 100%, 88%)",
+					"light-red": "hsl(354, 100%, 66%)",
+					"gray": "hsl(0, 0%, 59%)",
+					"very-dark-blue": "hsl(209, 33%, 12%)",
+				},
 			},
 			fontFamily: {
 				inter: ["var(--font-inter)"],
 				open_sans: ["var(--font-open-sans)"],
 				poppins: ["var(--font-poppins)"],
+				libre_franklin: ["var(--font-libre-franklin)"],
 			},
 			keyframes: {
 				"accordion-down": {

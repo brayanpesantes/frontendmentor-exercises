@@ -1,4 +1,4 @@
-import { Inter, Open_Sans, Poppins } from "next/font/google"
+import { Inter, Open_Sans, Poppins, Libre_Franklin } from "next/font/google"
 const inter = Inter({
 	subsets: ["latin"],
 	display: "swap",
@@ -17,4 +17,11 @@ const open_sans = Open_Sans({
 	weight: ["400"],
 	variable: "--font-open-sans",
 })
-export { inter, open_sans, poppins }
+const libre_franklin = Libre_Franklin({
+	subsets: ["latin"],
+	display: "swap",
+	weight: ["300", "600", "700"],
+	variable: "--font-libre-franklin",
+})
+
+export { inter, open_sans, poppins, libre_franklin }
