@@ -39,6 +39,13 @@ const config = {
 					"light-gray": "hsl(204, 43%, 93%)",
 					"grayish-blue": "hsl(218, 22%, 67%)",
 				},
+				"04": {
+					"red": "hsl(0, 100%, 74%)",
+					"green": "hsl(154, 59%, 51%)",
+					"blue": "hsl(248, 32%, 49%)",
+					"dark-blue": "hsl(249, 10%, 26%)",
+					"grayish-blue": "hsl(246, 25%, 77%)",
+				},
 			},
 			fontFamily: {
 				inter: ["var(--font-inter)"],
@@ -64,6 +71,8 @@ const config = {
 			backgroundImage: {
 				"exercise-01-mobile": "url('/images/exercise01/bg-mobile.svg')",
 				"exercise-01-desktop": "url('/images/exercise01/bg-desktop.svg')",
+				"exercise-04-mobile": "url('/images/exercise04/bg-intro-mobile.png')",
+				"exercise-04-desktop": "url('/images/exercise04/bg-intro-desktop.png')",
 			},
 		},
 	},
