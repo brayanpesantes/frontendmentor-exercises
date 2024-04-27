@@ -46,6 +46,15 @@ const config = {
 					"dark-blue": "hsl(249, 10%, 26%)",
 					"grayish-blue": "hsl(246, 25%, 77%)",
 				},
+				"05": {
+					"desaturated-red": "hsl(0, 36%, 70%)",
+					"soft-red": "hsl(0, 93%, 68%)",
+					"dark-grayish-red": "hsl(0, 6%, 24%)",
+					"gray-100": "hsl(0, 0%, 100%)",
+					"gray-200": "hsl(0, 100%, 98%)",
+					"red-100": "hsl(0, 80%, 86%)",
+					"red-200": "hsl(0, 74%, 74%)",
+				},
 			},
 			fontFamily: {
 				inter: ["var(--font-inter)"],
@@ -53,6 +62,7 @@ const config = {
 				poppins: ["var(--font-poppins)"],
 				libre_franklin: ["var(--font-libre-franklin)"],
 				karla: ["var(--font-karla)"],
+				josefin_sans: ["var(--font-josefin-sans)"],
 			},
 			keyframes: {
 				"accordion-down": {
