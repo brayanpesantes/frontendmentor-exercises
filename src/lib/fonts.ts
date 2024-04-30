@@ -1,4 +1,4 @@
-import { Inter, Karla, Libre_Franklin, Open_Sans, Poppins } from "next/font/google"
+import { Inter, Josefin_Sans, Karla, Libre_Franklin, Open_Sans, Poppins } from "next/font/google"
 const inter = Inter({
 	subsets: ["latin"],
 	display: "swap",
@@ -29,5 +29,11 @@ const karla = Karla({
 	weight: ["400", "700"],
 	variable: "--font-karla",
 })
+const josefin_sans = Josefin_Sans({
+	subsets: ["latin"],
+	display: "swap",
+	weight: ["300", "400", "600"],
+	variable: "--font-josefin-sans",
+})
 
-export { inter, karla, libre_franklin, open_sans, poppins }
+export { inter, josefin_sans, karla, libre_franklin, open_sans, poppins }
