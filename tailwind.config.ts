@@ -55,6 +55,15 @@ const config = {
 					"red-100": "hsl(0, 80%, 86%)",
 					"red-200": "hsl(0, 74%, 74%)",
 				},
+				"06": {
+					"red": "hsl(0, 78%, 62%)",
+					"cyan": "hsl(180, 62%, 55%)",
+					"orange": "hsl(34, 97%, 64%)",
+					"blue": "hsl(212, 86%, 64%)",
+					"very-dark-blue": "hsl(234, 12%, 34%)",
+					"grayish-blue": "hsl(229, 6%, 66%)",
+					"very-light-gray": "hsl(0, 0%, 98%)",
+				},
 			},
 			fontFamily: {
 				inter: ["var(--font-inter)"],
