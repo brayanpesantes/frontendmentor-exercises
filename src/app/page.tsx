@@ -8,6 +8,7 @@ export default function Home() {
 			<Link href="single-price-grid">single-price-grid</Link>
 			<Link href="intro-component-with-signup-form">intro-component-with-signup-form</Link>
 			<Link href="base-apparel-coming-soon">base-apparel-coming-soon</Link>
+			<Link href="four-card-feature-section">four-card-feature-section</Link>
 		</main>
 	)
 }
